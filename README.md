@@ -1,7 +1,7 @@
 ## CraigGeng's Code Community
 
 
-##资料地址
+## 资料地址
 SpringBoot文档：https://spring.io/guides
 
 第一次创建SpringBoot项目：https://spring.io/guides/gs/serving-web-content/
@@ -16,7 +16,7 @@ Maven仓库（寻找maven项目中需要的jar包）：https://mvnrepository.com
 
 OKHTTP（轻量级网络框架）:https://square.github.io/okhttp/
 
-##学习心得
+## 学习心得
 
 application properties用于设置项目中固定不变的量，定义名称 = 值；应用时使用@Value("${定义名称}")在前作为注释，后面定义相应的private变量。
 
