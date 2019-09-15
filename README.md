@@ -21,3 +21,17 @@ OKHTTP（轻量级网络框架）:https://square.github.io/okhttp/
 application properties用于设置项目中固定不变的量，定义名称 = 值；应用时使用@Value("${定义名称}")在前作为注释，后面定义相应的private变量。
 
 Failed to start component [Connector[HTTP/1.1-8887]]这是端口已经被占用的错误。解决方法：cmd中键入netstat -ano | findstr 端口号      查看端口被ID为那个的进程占用，再键入taskkill （/f） /pid  ID号进行任务杀死即可
+
+## 脚本
+
+``` 
+create table USER
+(
+  ID           INTEGER auto_increment,
+  ACCOUNT_ID   VARCHAR(100),
+  NAME         VARCHAR(50),
+  TOKEN        VARCHAR(36),
+  GMT_CREATE   BIGINT,
+  GMT_MODIFIED BIGINT
+);
+```
